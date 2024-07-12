@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="heading"></div>
+        <div class="form">
+            <form name="myForm" onsubmit="return validateForm()">
+                <fieldset>
+                <legend>Employee Details</legend>
+                <label for="fname">Name:</label>
+                <input type="text" id = "fname" name="fname">
+                <span id = "nameloc"></span>
+
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <span id="emailloc"></span>
+
+                <br>
+
+                <label for="password">Password:</label>
+                <input type="password" id = "password" name = "password">
+                <span id = passloc></span>
+                
+                <br>
+                
+                <input type="submit" value="Submit">
+                
+            </fieldset>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

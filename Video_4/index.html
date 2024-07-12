@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p> The <abbr title = "World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+    <p>This is a paragraph</p>
+    <strong>strong</strong>
+    <em>emphasized</em>
+    <u>unordered</u>
+    <address>address</address>
+    <cite>cite</cite>
+    <code>code</code>
+    <del>del</del>
+    <ins>ins</ins>
+    <kbd>kbd</kbd>
+    <map name="Ram">Hello</map>
+    <pre>pre</pre>
+    <samp>samp</samp>
+    <var>var</var>
+    <br>
+    <blockquote>blockquote</blockquote>
+    <hr>
+
+
+    <a href="https://google.com">google.com</a>
+    <base href="google.com">google.com
+
+    <!-- <area shape="circle" coords="0,0" href="https://google.com" alt="">Hello</area> -->
+    <ul type = "Square">
+        <li class="list" id="l-1">this is list-1</li>
+        <li class="list" id="l-2">this is list-2</li>
+        <li class="list" id="l-3">this is list-3</li>
+        <li class="list" id="l-4">this is list-4</li>
+    </ul>
+
+    <ol>
+        <li class="list" id="l-1">This is ordered list-1</li>
+        <li class="list" id="l-2">This is ordered list-2</li>
+        <li class="list" id="l-3">This is ordered list-3</li>
+        <li class="list" id="l-4">This is ordered list-4</li>
+    </ol>
+    <hr>
+    <div class = "table">
+
+
+        <table class="center" border="1">
+            
+            
+            <thead class = "table-head">
+                <th>Month</th>
+                <th>Age</th>
+                <th>Savings</th>
+            </thead>
+
+            <tbody class="table-rows">
+
+                <tr class = "table-row">
+                    <td>January</td>
+                    <td>34</td>
+                    <td>$100</td>
+                </tr>
+                <tr class = "table-row">
+                    <td>Feburary</td>
+                    <td>35</td>
+                    <td>$80</td>
+                </tr>
+
+                
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td colspan="2">$180</td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </div>
+
+    <div class="form">
+        <form action="">
+            <fieldset>
+                <legend>Employee Details</legend>
+
+                <p>
+                    <label>first name: <input type="text"></label>
+                <p>
+                    <label>last name: <input type="text"></label>
+                <p>
+                            <label>email: <input type="text"></label>
+                </p>
+                <p>
+                    <label for="Gender">Male    
+                        <input type="radio" name = "Gender" value="Male">
+                    </label>
+                    <label for="Gender">Female
+                        <input type="radio" name = "Gender" value="Female">
+                    </label>
+                </p>
+                <p>
+                                    <label>Enter your password: <input type="text"></label>
+                </p>
+                <p>
+                    <input type="text"></p>
+                </p>
+            </fieldset>
+            
+        </form>
+    </div>
+
+    <!-- <video controls au>
+        <source src="https://hianime.to/embed/bleach-806?ep=14078" type = "video">
+        Bleach Ep = 286
+    </video> -->
+    <!-- <map name="web">
+        <area shape="circle" coords="0,0,82,126" href="https://google.com" alt="google">
+    </map> -->
+
+    <marquee>
+        This is a sliding marquee. It will move smoothly from right to left.
+    </marquee>
+
+    <progress value="50" max="100"></progress>
+
+    <canvas id="canvasExample"></canvas>
+    <script>
+    var c = document.getElementById('canvasExample');
+    var ctx = c.getContext('2d');
+    ctx.fillStyle = '#1c87c9'; // Blue color
+    ctx.fillRect(20, 20, 100, 50); // Draw a rectangle
+    </script>
+
+    
+    
+
+    <iframe src="https://hianime.to/watch/bleach-806?ep=14078" frameborder="1" style="height: 600px; width: 800px"></iframe>
+
+
+
+</body>
+</html>
